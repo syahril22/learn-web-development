@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/boxicons/css/boxicons.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Syahril Sobirin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Porfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+    <!-- header start -->
+    <section class="header-section mt-5" id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <p class="text-orange fw-semibold">Syahril Sobirin</p>
+                    <h1 class="header-title text-uppercase fw-bold mb-5">creative design <br class="d-none d-md-block"> based in indonesia</h1>
+
+                    <a href="#" class="header-skill d-inline-flex align-item-center gap-2 text-decoration-none">Web Developer <i class="bx bx-right-arrow-alt fs-4"></i></a>
+                    <br>
+                    <a href="#" class="header-skill d-inline-flex align-item-center gap-2 text-decoration-none">Mobile Developer <i class="bx bx-right-arrow-alt fs-4"></i></a>
+                    <br>
+                    <a href="#" class="header-skill d-inline-flex align-item-center gap-2 text-decoration-none">Graphic Designer <i class="bx bx-right-arrow-alt fs-4"></i></a>
+
+                    <div class="d-flex align-items-center gap-4 mt-5">
+                        <div class="d-flex align-items-center gap-2">
+                            <h2 class="header-skill fw-bold mb-0">2+</h2>
+                            <p class="text-secondary fs-7 mb-0">Years of <br>Experiance</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <h2 class="header-skill fw-bold mb-0">1+</h2>
+                            <p class="text-secondary fs-7 mb-0">Happy <br>Customers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/header-photo.png" alt="" height="450" width="500" class="header-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <!-- portfolio start -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <p class="text-orange fw-semibold">Portfolio</p>
+            <h2 class="section-title mb-5">selected works</h2>
+
+            <!-- swiper start -->
+            <div class="swiper portfolio-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/portfolio-1.jpg" class="card-img-top" alt="">
+                                <h6 class="fw-semibold">Pomodoro Timer App UI</h6>
+                                <a href="#" class="text-orange text-decoration-none">Detail Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/portfolio-2.jpg" class="card-img-top" alt="">
+                                <h6 class="fw-semibold">Pomodoro Timer App UI</h6>
+                                <a href="#" class="text-orange text-decoration-none">Detail Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/portfolio-3.jpg" class="card-img-top" alt="">
+                                <h6 class="fw-semibold">Pomodoro Timer App UI</h6>
+                                <a href="#" class="text-orange text-decoration-none">Detail Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/portfolio-4.jpg" class="card-img-top" alt="">
+                                <h6 class="fw-semibold">Pomodoro Timer App UI</h6>
+                                <a href="#" class="text-orange text-decoration-none">Detail Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- button next and back card start -->
+                <div class="d-flex align-items-center justify-content-end gap-3 mt-3">
+                    <button class="btn btn-light d-flex align-items-center justify-content-center btn-prev">
+                        <i class="bx bx-left-arrow-alt fs-5"></i>
+                    </button>
+                    <button class="btn btn-light d-flex align-items-center justify-content-center btn-next">
+                        <i class="bx bx-right-arrow-alt fs-5"></i>
+                    </button>
+                </div>
+                <!-- button next and back card end -->
+            </div>
+        </div>
+    </section>
+    <!-- portfolio end -->
+
+    <!-- skiils start -->
+    <div class="skills-section" id="skills">
+        <div class="container">
+            <div class="row align-item-center justify-content-between">
+                <div class="col-md-12">
+                    <p class="text-orange fw-semibold">Skills</p>
+                    <h2 class="section-title text-uppercase fw-bold mb-5">Programming Skills</h2>
+                    <div class="row">
+                        <div class="col-md-2 mb-5">
+                            <img src="images/html (1).png" height="90px" width="70px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/css.png" height="100px" width="100px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/js.png" height="90px" width="70px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/php.png" height="60px" width="100px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/python.png" height="70px" width="70px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/nodejs.png" height="70px" width="120px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/docker.png" height="90px" width="110px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/ci.png" height="90px" width="70px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/mysql.png" height="120px" width="100px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/linux.png" height="120px" width="130px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/bootsrap.png" height="120px" width="160px" alt="">
+                        </div>
+                        <div class="col-md-2 mb-5">
+                            <img src="images/kubernetes.png" height="120px" width="190px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- skills end -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".portfolio-swiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".btn-next",
+        prevEl: ".btn-prev",
+      },
+
+    // responsive card start
+      breakpoints: {
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        480: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+      }
+    // responsive card end
+    });
+    </script>
+</body>
+</html>
